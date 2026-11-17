@@ -125,7 +125,7 @@ section[id],article[id]{scroll-margin-top:64px}
 .band small{font-family:var(--goth);font-size:.66em;font-weight:900;margin:0 .2em 0 .1em}
 .band--gold{background:var(--goldbg);color:#2b1a05}
 .band--gold::after{border-top-color:#c49328}
-.st{display:table;margin:0 auto;font-family:var(--goth);font-size:17px;font-weight:900;letter-spacing:.06em;line-height:1;padding:10px 18px 9px;border:2px solid currentColor;color:var(--muted);white-space:nowrap;border-radius:4px}
+.st{display:table;margin:0 auto;font-family:var(--goth);font-size:26px;font-weight:900;letter-spacing:.04em;line-height:1;padding:12px 26px 11px;border:3px solid currentColor;color:var(--muted);white-space:nowrap;border-radius:4px}
 .st[data-state="now"]{background:var(--red);border-color:var(--red);color:#fff}
 .st[data-state="soon"]{color:#a5761f}
 .st[data-state="end"]{color:#8d939c}
@@ -160,8 +160,8 @@ section[id],article[id]{scroll-margin-top:64px}
 .cpn:hover{filter:brightness(1.08)}
 .cpn__v{flex:1;min-width:0;display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 10px}
 .cpn__v .off{font-size:76px}
-.cpn__v .l{font-size:36px;letter-spacing:.02em}
-.cpn__get{flex:none;display:flex;align-items:center;padding:0 24px;border-left:2px dashed rgba(255,255,255,.85);font-size:36px;letter-spacing:.06em}
+.cpn__v .l{font-size:48px;letter-spacing:0}
+.cpn__get{flex:none;display:flex;align-items:center;padding:0 22px;border-left:2px dashed rgba(255,255,255,.85);font-size:42px;letter-spacing:.04em}
 .dash .cpn{background:var(--goldbg);color:#1a0b04;box-shadow:0 5px 0 #8a6516}
 .dash .cpn__get{border-left-color:rgba(0,0,0,.55)}
 
@@ -177,9 +177,9 @@ section[id],article[id]{scroll-margin-top:64px}
 .ln__cond{display:inline-block;margin-top:10px;padding:7px 16px;background:var(--lg-l);border-radius:4px;font-weight:900;font-size:18px;color:var(--lg-t)}
 .ln__cond b{font-family:var(--num);font-weight:600;font-size:1.35em;margin:0 .05em}
 .ln__dl{margin-top:14px;border-top:1px dashed #bfe3cc}
-.ln__dl div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:9px 2px;border-bottom:1px dashed #bfe3cc;text-align:left}
+.ln__dl div{display:flex;flex-direction:column;align-items:center;gap:0;padding:9px 2px;border-bottom:1px dashed #bfe3cc;text-align:center}
 .ln__dl dt{flex:none;font-weight:900;font-size:15px;color:var(--muted)}
-.ln__dl dd{font-family:var(--num);font-weight:600;font-size:19px;white-space:nowrap}
+.ln__dl dd{font-family:var(--num);font-weight:600;font-size:22px;white-space:nowrap}
 .ln__dl dd small{font-family:var(--goth);font-weight:700;font-size:.72em;margin:0 .12em}
 .ln .st{margin-top:14px;color:var(--lg-t)}
 .ln .st[data-state="now"]{background:var(--lg);border-color:var(--lg);color:#fff}
@@ -190,8 +190,8 @@ section[id],article[id]{scroll-margin-top:64px}
 .ln__steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:14px}
 .ln__steps li{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 4px;background:var(--lg-l);border-radius:10px;font-weight:900;font-size:15px;line-height:1.4}
 .ln__steps b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--lg);color:#fff;font-family:var(--num);font-size:17px;line-height:1}
-.ln__notes{margin-top:12px;text-align:left;font-size:14px;line-height:1.7;color:var(--muted)}
-.ln__notes li{padding-left:1em;text-indent:-1em}
+.ln__notes{margin-top:12px;text-align:center;font-size:14px;line-height:1.7;color:var(--muted)}
+.ln__notes li{padding:0}
 .ln__notes li::before{content:"※"}
 
 /* ========== 赤の青海波見出し ========== */
@@ -212,19 +212,19 @@ section[id],article[id]{scroll-margin-top:64px}
 .item__body{padding:18px 20px 0;text-align:center}
 .item__copy{font-weight:900;font-size:30px;line-height:1.45;letter-spacing:.03em}
 .item__copy em{font-style:normal;color:var(--red)}
-.item__txt{margin-top:8px;font-size:17px;line-height:1.75;text-align:left}
+.item__txt{margin-top:8px;font-size:17px;line-height:1.75;text-align:center}
 .sl{display:flex;align-items:center;justify-content:center;width:100%;margin-top:20px;background:var(--red);color:#fff;border-radius:10px;padding:16px;font-weight:900;font-size:30px;letter-spacing:.06em;line-height:1;white-space:nowrap;box-shadow:0 5px 0 var(--red-d)}
 .pp{display:flex;align-items:flex-end;justify-content:center;gap:12px;margin-top:20px}
 .pp i{display:block;font-style:normal;font-size:15px;font-weight:900;letter-spacing:.04em;margin-bottom:6px}
 .pp__old{color:var(--muted);font-size:17px;font-weight:700;line-height:1;padding-bottom:8px;white-space:nowrap}
-.pp__old s{font-family:var(--num);font-weight:600;font-size:26px;margin-right:2px;text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 56%/100% 2px no-repeat}
+.pp__old s{font-family:var(--num);font-weight:600;font-size:30px;margin-right:2px;text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 56%/100% 2px no-repeat}
 .pp__arw{width:0;height:0;border-left:15px solid var(--red);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-bottom:16px}
-.pp__new{color:var(--red);font-weight:900;font-size:24px;line-height:1;white-space:nowrap;text-align:left}
+.pp__new{color:var(--red);font-weight:900;font-size:28px;line-height:1;white-space:nowrap;text-align:center}
 .pp__new i{color:var(--red)}
-.pp__new b{font-family:var(--num);font-weight:600;font-size:66px;letter-spacing:-.015em;margin-right:2px}
+.pp__new b{font-family:var(--num);font-weight:600;font-size:80px;letter-spacing:-.015em;margin-right:2px}
 .price{display:flex;align-items:baseline;justify-content:center;margin-top:16px;line-height:1.1}
-.price__now{font-family:var(--num);font-weight:600;font-size:68px;color:var(--red);letter-spacing:-.015em}
-.price__now small{font-family:var(--goth);font-weight:900;font-size:24px;margin-left:2px}
+.price__now{font-family:var(--num);font-weight:600;font-size:84px;color:var(--red);letter-spacing:-.015em}
+.price__now small{font-family:var(--goth);font-weight:900;font-size:28px;margin-left:2px}
 .tax{margin-top:6px;font-size:15px;font-weight:700;color:var(--muted);text-align:center}
 .btn{display:flex;align-items:center;justify-content:center;background:var(--red);color:#fff;font-weight:900;font-size:19px;letter-spacing:.1em;padding:18px 20px;border-radius:999px;box-shadow:0 4px 0 var(--red-d);transition:background .2s}
 .btn:hover{background:var(--red-d)}
@@ -246,15 +246,17 @@ section[id],article[id]{scroll-margin-top:64px}
 .plan__n{font-weight:900;font-size:22px;line-height:1}
 .plan__n b{font-family:var(--num);font-weight:600;font-size:58px;color:var(--red);margin-right:2px}
 .plan__w{margin-top:6px;font-size:15px;font-weight:700;color:var(--muted)}
-.plan__price{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);width:100%;color:var(--red);font-weight:900;font-size:18px;line-height:1}
-.plan__price b{font-family:var(--num);font-weight:600;font-size:40px;letter-spacing:-.01em}
+.plan__price{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);width:100%;color:var(--red);font-weight:900;font-size:20px;line-height:1}
+.plan__price b{font-family:var(--num);font-weight:600;font-size:48px;letter-spacing:-.01em}
 .plan__per{margin-top:6px;font-size:14px;font-weight:700;color:var(--muted)}
 .plan__buy{display:flex;align-items:center;gap:6px;width:100%;margin-top:12px}
 .plan__btn{flex:1;min-width:0;display:block;padding:13px 4px;background:var(--red);color:#fff;border-radius:999px;font-weight:900;font-size:15px;white-space:nowrap;transition:background .2s}
 .plan__btn:hover{background:var(--red-d)}
 .plan .fav{position:absolute;top:10px;right:10px;width:40px;height:40px}
 .plan .fav svg{width:19px;height:19px}
-.plan--best{background:#fff8e1;border-width:3px}
+.plan--best{background:#fff8e1;border-width:3px;padding-top:0}
+.plan--best .plan__tag{position:static;transform:none;display:block;align-self:stretch;margin:0 -10px 14px;border-radius:0 0 8px 8px;padding:7px 4px;box-shadow:none}
+.plan--best .fav{top:48px}
 .tokudai>.tax{margin-top:14px}
 
 /* ========== その他のセール ========== */
@@ -278,7 +280,7 @@ section[id],article[id]{scroll-margin-top:64px}
 .rk__no b{font-family:var(--num);font-weight:600;font-size:46px;line-height:.8;margin-right:1px}
 .rk__body{padding:18px 20px 22px;text-align:center}
 .rk__name{font-weight:900;font-size:28px;line-height:1.4;letter-spacing:.03em}
-.rk__txt{margin-top:8px;font-size:17px;line-height:1.75;text-align:left}
+.rk__txt{margin-top:8px;font-size:17px;line-height:1.75;text-align:center}
 .rk .plans{margin:18px 0 0;grid-template-columns:minmax(0,1fr);gap:14px}
 .plan__price{white-space:nowrap}
 
@@ -314,7 +316,7 @@ section[id],article[id]{scroll-margin-top:64px}
 .gift__btn:hover::after{width:34px}
 .gift__cp-note{position:relative;margin-top:14px;font-size:15px;line-height:1.8;color:var(--sumi-2)}
 .gf-tier{margin:34px 0 0}
-.gf-tier__head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-bottom:12px;margin-bottom:18px;border-bottom:1px solid var(--sumi)}
+.gf-tier__head{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center;padding-bottom:12px;margin-bottom:18px;border-bottom:1px solid var(--sumi)}
 .gf-tier__yen{font-family:var(--mincho);font-weight:800;font-size:22px;line-height:1.2;white-space:nowrap}
 .gf-tier__yen b{font-family:var(--garamond);font-weight:600;font-size:40px;margin-right:2px}
 .gf-tier__d{font-family:var(--mincho);font-weight:800;font-size:17px;letter-spacing:.1em;color:var(--sumi-2);white-space:nowrap}
@@ -325,11 +327,11 @@ section[id],article[id]{scroll-margin-top:64px}
 .gf__ph{position:relative;display:block;overflow:hidden;background:#fff}
 .gf img{width:100%;aspect-ratio:1;object-fit:cover;transition:transform .8s ease}
 .gf:hover img{transform:scale(1.04)}
-.gf__tx{display:block;padding-top:12px}
+.gf__tx{display:block;padding-top:12px;text-align:center}
 .gf__rt{display:block;font-family:var(--mincho);font-weight:800;font-size:14px;letter-spacing:.12em;color:var(--shu)}
 .gf__name{display:block;font-family:var(--mincho);font-weight:800;font-size:17px;line-height:1.55;letter-spacing:.02em}
-.gf__price{display:block;margin-top:4px;font-family:var(--garamond);font-weight:600;font-size:30px;line-height:1.25}
-.gf__price small{font-family:var(--goth);font-weight:700;font-size:15px;margin-left:2px}
+.gf__price{display:block;margin-top:4px;font-family:var(--garamond);font-weight:600;font-size:36px;line-height:1.25}
+.gf__price small{font-family:var(--goth);font-weight:700;font-size:17px;margin-left:2px}
 .gf__tg{display:block;margin-top:2px;font-size:14px;font-weight:700;color:var(--sumi-2)}
 /* 早割バッジ（朱の印）：数字と「%OFF」をどちらも大きく */
 .gf__badge{position:absolute;z-index:2;top:6px;right:6px;width:84px;height:84px;border-radius:50%;background:var(--shu);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;font-family:var(--mincho);font-weight:800;font-size:14px;letter-spacing:.08em;box-shadow:inset 0 0 0 2px var(--shu),inset 0 0 0 3px rgba(255,255,255,.8)}
@@ -418,33 +420,51 @@ section[id],article[id]{scroll-margin-top:64px}
   .ln__lead{font-size:16px}
   .ln__off .off{font-size:96px}
   .ln__cond{font-size:16px;padding:7px 12px;white-space:nowrap}
-  .ln__dl div{flex-direction:column;align-items:center;gap:0;text-align:center}
-  .ln__dl dd{font-size:21px}
+  .ln__dl dd{font-size:19px}
   .wave-head__ttl b{font-size:19vw}
   .wave-head__ttl small{font-size:30px}
   .item__copy{font-size:24px}
   .band{font-size:20px}
   .band small{font-size:.74em}
   .cd__nums b{font-size:44px}
-  .gf-tier__head{flex-wrap:wrap;gap:4px 12px}
+  .st{font-size:22px;padding:11px 20px 10px}
   .item__txt,.rk__txt{font-size:16px}
-  .cpn__v .off{font-size:58px}
-  .cpn__v .l{font-size:27px}
-  .cpn__get{font-size:27px;padding:0 16px}
+  .cpn__v{gap:8px;padding:12px 6px}
+  .cpn__v .off{font-size:52px}
+  .cpn__v .l{font-size:33px}
+  .cpn__get{font-size:30px;padding:0 13px}
   .dash__h{font-size:8.2vw;padding:3px 20px 5px}
   .dash__ne{font-size:24px}
   .dash__txt{font-size:16px}
-  .pp__new b{font-size:56px}
+  .pp{gap:7px}
+  .pp__old s{font-size:22px}
+  .pp__new{font-size:22px}
+  .pp__new b{font-size:58px}
+  .price__now{font-size:72px}
   .plan__n b{font-size:50px}
-  .plan__price b{font-size:34px}
+  .plan__price b{font-size:38px}
+  .plan__price{font-size:18px}
   .rk__name{font-size:25px}
   .gift__ttl{font-size:30px}
   .gift__cp-off .off{font-size:112px}
   .gf-tier__yen b{font-size:34px}
-  .gf__price{font-size:26px}
+  .gf__price{font-size:31px}
   .gift__cp-term{font-size:21px}
 }
 @media (max-width:360px){
+  .plan--best .plan__tag{letter-spacing:-.04em;padding:7px 0}
+  .plan__per{letter-spacing:0;white-space:nowrap}
+  .dash__h{padding:3px 12px 5px}
+  .dash__ttl small{font-size:18px}
+  .ln__dl dd{font-size:18px}
+  .cpn__v .off{font-size:46px}
+  .cpn__v .l{font-size:29px}
+  .cpn__get{font-size:26px;padding:0 10px}
+  .pp{gap:5px}
+  .pp__old s{font-size:20px}
+  .pp__new b{font-size:51px}
+  .plan__price b{font-size:35px}
+  .plan__price{font-size:17px}
   .plan__btn{font-size:14px}
   .ln__dl div{flex-direction:column;gap:2px}
   .band{font-size:21px}
